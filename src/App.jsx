@@ -7,6 +7,7 @@ import Lottery from './Lottery';
 
 
 
+
 function App() {
  
   return (
@@ -18,8 +19,10 @@ function App() {
 
 
     <>
-    <Lottery/>
+    <Lottery n={3} winningSum={15}/>
     </>
+
+   
   )
 }
 
